@@ -7,7 +7,7 @@
 <body ng-controller="mainCtrl">
   <h1>My Friends</h1>
 
-  <input type="text" ng-model="inputName"/> <button ng-click="addFriend()">submit</button>
+  <input type="text" ng-model="adder"/> <button ng-click="addFriends()">submit</button>
 
   <div ng-repeat="friend in friends">
     <p>{{friend}}</p>
